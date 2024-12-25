@@ -58,19 +58,19 @@ const Navbar = () => {
       <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
         <Link
           href="/"
-          className="block py-2 px-4 text-sm hover:bg-orange-600 hover:text-white transition duration-300 ease-in-out"
+          className="block py-2 px-4 pl-6 text-sm hover:bg-orange-600  text-white transition duration-300 ease-in-out"
         >
           Home
         </Link>
         <Link
           href="/csr"
-          className="block py-2 px-4 text-sm hover:bg-orange-600 hover:text-white transition duration-300 ease-in-out"
+          className="block py-2 px-4 pl-6  text-sm hover:bg-orange-600 text-white transition duration-300 ease-in-out"
         >
           Client-Side
         </Link>
         <Link
           href="/ssr"
-          className="block py-2 px-4 text-sm hover:bg-orange-600 hover:text-white transition duration-300 ease-in-out"
+          className="block py-2 px-4 pl-6  text-sm hover:bg-orange-600 text-white transition duration-300 ease-in-out"
         >
           Server-Side
         </Link>
