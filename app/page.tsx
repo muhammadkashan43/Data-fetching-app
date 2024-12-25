@@ -14,7 +14,7 @@ export default function Home() {
           <div className="transform text-base sm:text-lg  py-6 font-semibold text-center text-black tracking-wide">
             - How would you like to fetch your data?
           </div>
-          <div className="flex flex-col text-base sm:flex-row justify-center gap-4">
+          <div className="flex flex-col text-base items-center sm:flex-row justify-center gap-4">
             <Link href="/csr">
               {" "}
               <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg">
