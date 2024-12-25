@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
+      <div className={`md:hidden text-center flex flex-col justify-content ${isOpen ? "block" : "hidden"}`}>
         <Link
           href="/"
           className="block py-2 px-4 pl-6 text-sm hover:bg-orange-600  text-white transition duration-300 ease-in-out"
